@@ -1,0 +1,45 @@
+# Language LC translations for  08_I18n package.
+# Copyright (C) 2023 THE  08_I18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  08_I18n package.
+# Evan <evan@compik>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  08_I18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-13 20:16+0300\n"
+"PO-Revision-Date: 2023-12-13 20:24+0300\n"
+"Last-Translator: Evan <evan@compik>\n"
+"Language-Team: Language LC\n"
+"Language: LC_ALL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.c:24
+#, c-format
+msgid "Pick a random number between 1 and a 100\n"
+msgstr "Выберите случайное число от 1 до 100\n"
+
+#: main.c:31
+#, c-format
+msgid "Is your number larger than %d? (yes/no)\n"
+msgstr "ваше число больше %d? (да/нет)\n"
+
+#: main.c:34
+msgid "yes"
+msgstr "да"
+
+#: main.c:36
+msgid "no"
+msgstr "нет"
+
+#: main.c:39
+#, c-format
+msgid "Please, enter yes or no\n"
+msgstr "Пожалуйста, введите да или нет\n"
+
+#: main.c:42
+#, c-format
+msgid "You've picked number %d!\n"
+msgstr "Вы выбрали число %d!\n"
