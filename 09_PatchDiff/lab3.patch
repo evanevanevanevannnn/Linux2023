@@ -1,0 +1,23 @@
+--- lab0.c	2023-12-28 01:51:08.321436059 +0300
++++ lab3.c	2023-12-28 01:51:01.849407161 +0300
+@@ -239,15 +239,15 @@
+     int N;
+     int seed;
+ 
+-    if (argc < 1)
++    if (argc < 4)
+         return 0;
+ 
+-    seed = 0;
++    sscanf(argv[1], "%d", &seed);
+ 
+-    PassSymb = '.';
+-    WallSymb = '#';
++    PassSymb = argv[2][0];
++    WallSymb = argv[2][1];
+ 
+-    N = 6;
++    sscanf(argv[3], "%d", &N);
+ 
+     srand(seed);
+ 
